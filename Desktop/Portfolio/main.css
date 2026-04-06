@@ -1,0 +1,17 @@
+
+
+body {
+    background-color: black;
+    margin:0px;
+}
+
+.Nav {
+    position: absolute;
+    x: 0;
+    y: 0;
+    background-color: white;
+}
+
+.Home-Body {
+    background-color:red;
+}
