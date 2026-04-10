@@ -37,6 +37,13 @@ body {
     max-height: 800px;
 }
 button {
-    width:100%;
-    height: 200px;
+    display:flex;
+    justify-content: center;
+    width:200px;
+    height: 50px;
+    margin:0 auto;
+}
+
+.Home-Body iframe {
+    display:none;
 }
