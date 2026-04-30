@@ -21,22 +21,6 @@ body {
     padding: 5px;
 }
 
-.Home-Body {
-    display:inline-block;
-    padding-top: 10vh;
-    background-color:red;
-    width:100%;
-    
-}
-.Home-Body iframe {
-    width: 75%;
-    height: 90vh;
-    margin-left: 12.5%;
-    margin-bottom: 1vh;
-    min-height: fit-content;
-    max-height: 800px;
-    display:none;
-}
 button {
     display:flex;
     justify-content: center;
@@ -48,3 +32,51 @@ button {
 .selected {
     background-color: darkgray;
 }
+
+
+/* Home-Body Start */
+.Home-Body {
+    display:inline-block;
+    padding-top: 10vh;
+    background-color:red;
+    width:100%;
+}
+
+.Home-Body iframe {
+    width: 75%;
+    height: 90vh;
+    margin-left: 12.5%;
+    margin-bottom: 1vh;
+    min-height: fit-content;
+    max-height: 800px;
+    display:none;
+}
+
+.Home-Body button {
+    background-color: lightgray;
+    font-weight: 300;
+    height: fit-content;
+}
+
+.Home-Body h1, .Home-Body p {
+    width:fit-content;
+    margin:auto;
+    color:#111;
+}
+
+.Home-Body p {
+    font-size: large;
+    font-weight: 500;
+    max-width: 75%;
+    text-align: center;
+}
+.Home-Body hr {
+    width: 60%;
+    margin:auto;
+    height: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+/* Home-Body End */
+
+
