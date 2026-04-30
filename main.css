@@ -38,7 +38,7 @@ button {
 .Home-Body {
     display:inline-block;
     padding-top: 10vh;
-    background-color:red;
+    background-color:white;
     width:100%;
 }
 
@@ -53,9 +53,10 @@ button {
 }
 
 .Home-Body button {
-    background-color: lightgray;
-    font-weight: 300;
+    background-color: whitesmoke;
+    font-weight: 400;
     height: fit-content;
+    border-radius: 10px;
 }
 
 .Home-Body h1, .Home-Body p {
@@ -73,9 +74,13 @@ button {
 .Home-Body hr {
     width: 60%;
     margin:auto;
-    height: 2px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    height: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color:gray;
+    
 }
 /* Home-Body End */
 
