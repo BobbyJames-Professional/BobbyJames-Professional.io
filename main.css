@@ -35,6 +35,7 @@ body {
     margin-bottom: 1vh;
     min-height: fit-content;
     max-height: 800px;
+    display:none;
 }
 button {
     display:flex;
@@ -44,6 +45,6 @@ button {
     margin:0 auto;
 }
 
-.Home-Body iframe {
-    display:none;
+.selected {
+    background-color: darkgray;
 }
