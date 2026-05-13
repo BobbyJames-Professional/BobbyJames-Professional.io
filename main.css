@@ -33,9 +33,18 @@ button {
 
 
 /* Home-Body Start */
+/* Home-Top Start */
+.Home-Body .Home-Top h1 {
+    font-size: calc(32px + 3vw);
+}
+.Home-Body .Home-Top p {
+    font-size: calc(16px + 1vw);
+    line-height: calc(20px + 1vw);
+
+}
+/* Home-Top End */
 .Home-Body {
     display:inline-block;
-    padding-top: 10vh;
     background-color:white;
     width:100%;
     min-height: 1200px;
@@ -43,12 +52,13 @@ button {
 
 .Home-Body object{
     width: 75%;
+    height:57vw; 
     margin-left: 12.5%;
     margin-bottom: 1vh;
 
-    height: 90vh;
-    min-height: fit-content;
-    max-height: 800px; 
+    object-fit:fill;
+
+      
     display:none;
 }
 
@@ -68,6 +78,7 @@ button {
     width:fit-content;
     margin:auto;
     color:#111;
+    text-align: center;
 }
 
 .Home-Body p {
@@ -80,13 +91,12 @@ button {
     width: 80%;
     margin:auto;
     height: 5px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 1vb;
+    margin-bottom: 1vb;
     border-style:inset;
     border-radius: 10px;
     border-width: 1px;
     background-color:#333;
-
     
 }
 /* Home-Body End */
