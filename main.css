@@ -31,17 +31,16 @@ button {
     background-color: darkgray;
 }
 
-
-/* Home-Body Start */
-/* Home-Top Start */
-.Home-Body .Home-Top h1, .Resume-Body .Home-Top h1 {
+.titleDiv h1 {
     font-size: calc(32px + 3vw);
+    text-align: center;
 }
-.Home-Body .Home-Top p, .Resume-Body .Home-Top p{
+.titleDiv p{
     font-size: calc(16px + 1vw);
     line-height: calc(20px + 1vw);
+    text-align: center;
 }
-/* Home-Top End */
+/* Home-Body Start */
 .Home-Body {
     display:inline-block;
     background-color:white;
