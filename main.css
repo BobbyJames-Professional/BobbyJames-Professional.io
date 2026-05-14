@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin:0px;
 }
 
@@ -50,15 +50,18 @@ button {
     min-height: 1200px;
 }
 
-.Home-Body object{
+.Home-Body object {
     width: 75%;
     height:57vw; 
-    margin-left: 12.5%;
+
+    max-width: 1060px;
+    max-height:806px;
+
+    margin: 0 auto;
     margin-bottom: 1vh;
 
-    object-fit:fill;
+    object-fit:scale-down;
 
-      
     display:none;
 }
 
