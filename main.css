@@ -34,13 +34,12 @@ button {
 
 /* Home-Body Start */
 /* Home-Top Start */
-.Home-Body .Home-Top h1 {
+.Home-Body .Home-Top h1, .Resume-Body .Home-Top h1 {
     font-size: calc(32px + 3vw);
 }
-.Home-Body .Home-Top p {
+.Home-Body .Home-Top p, .Resume-Body .Home-Top p{
     font-size: calc(16px + 1vw);
     line-height: calc(20px + 1vw);
-
 }
 /* Home-Top End */
 .Home-Body {
@@ -104,4 +103,43 @@ button {
 }
 /* Home-Body End */
 
+/* Resume-Body Start */
+.Resume-Body {
+    display: inline-block;
+    background-color:white;
+    width:100%;
+    min-height: 20vh;
+}
+#resumePDF {
+    width:min-content;
 
+    margin: 0 auto;
+    margin-bottom: 1vh;
+}
+
+#resumePDF object {
+    object-fit:fill;
+    background-size: contain;
+}
+
+#resumePDF object embed {
+    width:72vw;
+    height:96vw;
+    max-width: 825px;
+    max-height: 1065px;
+}
+
+.Resume-Body h1, .Home-Body p {
+    width:fit-content;
+    margin:auto;
+    color:#111;
+    text-align: center;
+}
+
+.Resume-Body p {
+    font-size: large;
+    font-weight: 500;
+    max-width: 75%;
+    text-align: center;
+}
+/* Resume-Body Start */
