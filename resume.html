@@ -15,7 +15,7 @@
     <title>Bobby's Portfolio</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="noScrollPlease">
     <nav class="navbar sticky-top navbar-expand navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -32,18 +32,32 @@
                         <li><a class="dropdown-item" href="certifications.html#dataAnalytics">Data Analytics</a></li>
                         <li><a class="dropdown-item" href="certifications.html#databases">Databases </a></li>
                         <li><a class="dropdown-item" href="certifications.html#htmlCSS">HTML and CSS</a></li>
+                        <li><a class="dropdown-item" href="certifications.html#deviceConfig">Device Config...</a></li>
+                        <li><a class="dropdown-item" href="certifications.html#earlyCollege">Early College</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="fans.html">Fans</a>
+                    <a class="nav-link" href="resume.html">Resume</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="Home-Body">
-        <iframe src="Images\Computational Thinking CERT.pdf" width="100%" height="500px">
-            <p>This browser does not support PDFs. Please download it: <a href="yourfile.pdf">Download PDF</a></p>
-        </iframe>
+    
+    <div class="Resume-Body">
+        <div class="Home-Top" style="margin-bottom: 1vh;">
+            <h1>Resume</h1>
+            <p style="margin:0 auto;">
+                I'm an infotech student that hopes to work in the field. 
+                I have always had a passion for infotech, with a special interest in the game making process.
+            </p>
+        </div>
+        
+
+        <div id="resumePDF" class="container-fluid" style="padding:0px;">
+        <object data="document.pdf" type="application/pdf">
+        <embed src="images\Digital Portfolio Resume.pdf#toolbar=0&navpanes=0&scrollbar=0" width="425" height="425" />
+        </object>
+        </div>
     </div>
 </body>
 </html>
